@@ -1,5 +1,7 @@
 # README
 
+This is the readme file for finance tracker app
+
 This is README file of finance tracker app from the complete Ruby on Rails Developer course.
 
 Things you may want to cover:
