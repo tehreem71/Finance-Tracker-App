@@ -1,0 +1,7 @@
+//JS so that only search result part of the page gets reloaded and not the full page
+// #results is the div id in my_portfolio for result div, we are getting the stock values in it using JS 
+// the JS will call the HTML (@stock)shit part which will be shown in this div
+//using JS through AJAX so the whole page doesnt reload each time
+// j is short version of escape_javascript: telling that this code is not part of the JS, it is embedded HTML here
+document.querySelector('#results').innerHTML='<%= j render 'users/result.html'%>'
+
